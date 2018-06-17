@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+.container{
+    margin:20px 100px 20px 100px;
+    background-repeat:repeat;
+    overflow: hidden;
+}
+/*.bor{
+    border:2px solid red;
+}*/
+.col-1{
+    float: left;
+    margin:20px;
+    width:50%;
+    overflow: hidden;
+}
+.header{
+    position: relative;
+    width:75%;
+    text-align: center;
+    background-color:rgba(165, 91, 42, 0.959);
+    font-size: 30px;
+    color:whitesmoke;
+    height: 50px;
+    padding-top: 15px;
+}
+.row-1{
+    text-align: justify;
+    padding:6px;
+    position: relative;
+    margin:10px 0px 10px 0px;
+    background-color: antiquewhite;
+    color:green;
+    word-spacing: 6px;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.col-random{
+    position: relative;
+    float: left;
+    width:45%;
+    height: 80px;
+    margin-right:10px;
+    background-color: rgb(51, 199, 125);
+    font-size: 35px;
+    padding:10px;
+}
+.col-result{
+    position: relative;
+    float: left;
+    width:20%;
+    height: 80px;
+    background-color: aqua;
+    padding:10px;
+    
+}
+.button-row{
+    clear: both;
+}
+.button-col{
+    position: relative;
+    float:left;
+    width:18%;
+    height: 80px;
+    margin:10px 10px 10px 10px;
+} 
+.scoreheader-row{
+    position: relative;
+    clear: both;
+    width: 50%;
+    margin:10px 0px 10px 0px;
+    color:white;
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+.score-row{
+    width: 50%;
+    background-color: #4aaaa5;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
+.col-2{
+    float:left;
+    width:35%;
+    
+}
+.result-row,.button-row{
+    overflow: hidden;
+}
+.image{
+    width:100px;
+    height:80px;
+}
+.location{
+    
+}
