@@ -1,4 +1,4 @@
-//
+//variable declaration and initialization
 var sum=0;
 var  win=0;
 var losses=0;
@@ -6,7 +6,7 @@ var random='';
 var random1=0;
 var random2=0;
 var random3=0;
-
+//function to genetate random number to be gussed
 function randomnum(){
  random = Math.floor(Math.random() * 102) + 19;
 console.log(random);
@@ -14,12 +14,14 @@ console.log(random);
         $(".col-random").text(random);
         return random;
 }randomnum();
+        //cristals random number generater
        var  random1 = Math.floor(Math.random() * 11) + 1;
        var  random2 = Math.floor(Math.random() * 11) + 1;
         console.log(random2);
         var random3 = Math.floor(Math.random() * 11) + 1;
         console.log(random3);
         var random4 = Math.floor(Math.random() * 11) + 1;
+//when the cristal button clicked random number added and score output 
 $(".button-random1").on("click", function() {        
          sum=sum+random1;
          
@@ -45,6 +47,7 @@ $(".button-random4").on("click", function() {
          $(".score-row").text(sum); 
    
 });
+//function to  compare the sum and random number given to decide winning or lossing 
     function result(){  
         if(sum==random){ 
             win++;
