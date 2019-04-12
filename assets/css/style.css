@@ -23,7 +23,7 @@ body{
     padding: 40px 50px;
     margin: 10px;
     line-height: 25px;
-    color:rosybrown;
+    color:rgb(112, 87, 87);
 }
 .row-1 p::before{
     
