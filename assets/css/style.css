@@ -7,7 +7,7 @@ body{
     /* margin:20px 100px 20px 100px; */
     background-repeat:repeat;
     overflow: hidden;
-    padding: 30px 60px;
+    padding: 20px 60px;
 }
 .header{
     color: rgb(80, 43, 38);
@@ -85,16 +85,16 @@ button:focus {
 .button-col{
     width: 100px;
     padding-bottom: 0;
-    /* border-radius: 30%; */
-    /* margin-top: 5px; */
 }
 button{
+    background: none;
     border-style: none;
     padding:0;
 }
  img{
     width: 80px;
     border-radius: 30%;
+    cursor: pointer;
 }
 .score{
     clear: both;
@@ -118,7 +118,7 @@ button{
          
      }
      .button-col{
-        float: left;
+        /* float: left; */
     }
     .row-1 p::before{
         left: 50px;
@@ -129,6 +129,12 @@ button{
     button img{
         width: 60px;
     }
+ }
+ @media only screen and (min-width: 541px) and (max-width: 1024px){
+     .header, #instruction, .result-row, #instruction-button,
+     .button-row{
+         margin: 30px;
+     }
  }
    
    
