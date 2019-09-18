@@ -18,12 +18,25 @@ body{
     margin: 10px;
     overflow: hidden;
 }
+#instruction-button{
+    padding: 10px;
+    color: #39a2df;
+    background: whitesmoke;
+    margin: auto 10px;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #659dbd;
+    cursor: pointer;
+    border-radius: 20px;
+}
+button:focus {
+    outline:0;
+}
 .row-1{
-    background-color: rgb(241, 239, 239);
+    background-color: #fbeec1;
     padding: 40px 50px;
     margin: 10px;
     line-height: 25px;
-    color:rgb(112, 87, 87);
+    color:rgb(80, 43, 38);
 }
 .row-1 p::before{
     
@@ -60,30 +73,36 @@ body{
     
 }
 .button-row{
-    width: max-content;
-    padding: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: max-content; */
+    padding: 20px ;
     overflow: hidden;
     text-align: center;
-    margin: 0 auto;
+    /* margin:  auto; */
 }
 .button-col{
     width: 100px;
-    float: left;
-    margin-top: 5px;
+    padding-bottom: 0;
+    /* border-radius: 30%; */
+    /* margin-top: 5px; */
 }
-button img{
-    
+button{
+    border-style: none;
+    padding:0;
+}
+ img{
     width: 80px;
-    
-
+    border-radius: 30%;
 }
 .score{
     clear: both;
     background-color: #fbeec1;
     text-align: center;
     width: 40%;
-    margin:  30px auto;
-    padding: 20px 0;
+    margin:  10px auto;
+    padding: 10px 0;
 }
 .score-row{
     font-size: 30px;
@@ -99,15 +118,16 @@ button img{
          
      }
      .button-col{
-        
         float: left;
-        
     }
     .row-1 p::before{
         left: 50px;
     }
     .score{
-        margin-top:  120px;
+        width: 80%;
+    }
+    button img{
+        width: 60px;
     }
  }
    

@@ -63,3 +63,15 @@ $(".button-random4").on("click", function() {
             randomnum();
         }
     }
+
+    function instruction() {
+        var rule = document.getElementById("instruction");
+        var btn = document.getElementById("instruction-button");
+        if (rule.style.display === "none" && btn.innerHTML === "Read Instruction" ) {
+          rule.style.display = "block";
+          btn.innerHTML = "Hide Instruction"
+        } else {
+          rule.style.display = "none";
+          btn.innerHTML = "Read Instruction"
+        }
+      }
